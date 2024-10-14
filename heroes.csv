@@ -1,0 +1,6 @@
+name,health,damage
+"Special",50,20
+"Mage",80,15
+"Tank",500,1
+"Assasin",25,50
+"Warrior",100,10
