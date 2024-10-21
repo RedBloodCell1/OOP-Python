@@ -12,12 +12,22 @@ class Hero:
         
         # Assing to self object
         self.__name = name
-        self.health = health
+        self.__health = health
         self.damage = damage
         
         # Actions to execute
         Hero.all.append(self)
         
+    @property
+    def health(self):
+        return self.__health
+    
+    def apply_nerf(self):
+        self.__health = self.__health * self.nerf_rate
+        
+    def apply_buff(self, multiplier):
+        self.__health = self.__health + (self.__health * multiplier)
+    
     @property
     def name(self):
         return self.__name
@@ -29,10 +39,9 @@ class Hero:
         self.__name = new_name
     
     def calculate_total_power(self):
-        return self.health * self.damage
+        return self.__health * self.damage
     
-    def apply_nerf(self):
-        self.health = self.health * self.nerf_rate
+
         
     @classmethod
     def instantiate_from_csv(cls):

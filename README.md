@@ -64,3 +64,17 @@ So the term Parent class & Child class is pretty self explanatory. Parent meanin
 - OHHH SO WE CAN ACTUALLY NOT SET UP THE NAME IN THE `__INIT__` BUT WE CAN USE SETTER TO MAKE SPECIAL CASE BEFORE SETTING A NAME... I don't really know how i can really apply this yet, or maybe i know, its just theres a lot of to consume today. so im once again fried
 
 - I think I will continue this tomorrow. As I don't expect this to be this much. But I sure learn a lot today. See you tomorrow. Sorry for kinda breaking my promise. I will make it up for you guys today (Its already today). See youu
+
+## Day 4:
+
+- Im once again sorry that I am gone for a while, same reason, thesis, coping, lazy. But yeah, I am back here again. I will finish OOP today. Good news, my thesis is once again done. This time its done done like 95%. I can finally graduate. The thing is i still need to publish the paper. SO yeah i am waiting for that. But its done now.
+
+- **Encapsulation** = So from what i learned, simply we can't access the attribute directly. but only allow it to access and modify it with a method inside the class
+
+- **Abstraction** = OHHH. Its simply same as encapsulation, but instead of making an attribute private, we make a method private. We can do this by using "\_\_method" same as encapsulation
+
+- **Inheritance** = I think i already know what this is? A child can inherit its parent method
+
+- **Polymorphism** = Simply use of single type entity to represent multiple type of values. for example len() function in python can be used with integer, string, and list. So in OOP, we can have a method on the parent class that can handle multiple of its child. for example we can apply nerf of 0.8x to villain and nerf of 1x to npc. Well that is that. That all of OOP
+
+I guess its not that hard, i just need to use it more and i will be proficient with it. Well, next im gonna do front end and back end thingies. So yeah see you for the next lesson.
